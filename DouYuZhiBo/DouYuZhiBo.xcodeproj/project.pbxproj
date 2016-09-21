@@ -472,7 +472,7 @@
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xcoq.DouYuZhiBo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -487,7 +487,7 @@
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xcoq.DouYuZhiBo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -566,6 +566,7 @@
 				CB71C46A1D91875300095D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB71C46B1D91875300095D7A /* Build configuration list for PBXNativeTarget "DouYuZhiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +575,7 @@
 				CB71C46D1D91875300095D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB71C46E1D91875300095D7A /* Build configuration list for PBXNativeTarget "DouYuZhiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +584,7 @@
 				CB71C4701D91875300095D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
