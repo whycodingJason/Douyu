@@ -12,7 +12,7 @@ class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+  self.view.backgroundColor = UIColor.purple
         // Do any additional setup after loading the view.
     }
 
