@@ -12,13 +12,27 @@ class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-  self.view.backgroundColor = UIColor.purple
-        // Do any additional setup after loading the view.
+        
+        addchildVc(storyName: "Home")
+        addchildVc(storyName: "live")
+        addchildVc(storyName: "Follow")
+        addchildVc(storyName: "ME")
+        
+ 
+        
     }
 
+    private func addchildVc (storyName:String){
+        
+        let  childVC = UIStoryboard (name:storyName,bundle:nil).instantiateInitialViewController();
+        
+        
+        
+        addChildViewController(childVC!)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       
     }
     
 
