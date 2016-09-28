@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1633961D97F84D00DC5A42 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1633951D97F84D00DC5A42 /* Follow.storyboard */; };
+		CB16339B1D97F92B00DC5A42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16339A1D97F92B00DC5A42 /* HomeViewController.swift */; };
+		CB16339E1D9800C700DC5A42 /* UIbarBtn-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16339D1D9800C700DC5A42 /* UIbarBtn-extension.swift */; };
+		CB1633A01D98124200DC5A42 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB16339F1D98124200DC5A42 /* PageTitleView.swift */; };
 		CB196D411D942E2B0068AB91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB196D401D942E2B0068AB91 /* Main.storyboard */; };
 		CB196D491D9438420068AB91 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB196D481D9438420068AB91 /* MainViewController.swift */; };
 		CB196D4B1D94B8E00068AB91 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB196D4A1D94B8E00068AB91 /* Home.storyboard */; };
@@ -16,7 +20,6 @@
 		CB196D551D94BA110068AB91 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB196D541D94BA110068AB91 /* MeViewController.swift */; };
 		CB196D571D94BA2C0068AB91 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB196D561D94BA2C0068AB91 /* LiveViewController.swift */; };
 		CB196D591D94BA4B0068AB91 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB196D581D94BA4B0068AB91 /* FollowViewController.swift */; };
-		CB196D5B1D94BC5A0068AB91 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB196D5A1D94BC5A0068AB91 /* HomeViewController.swift */; };
 		CB71C4441D91875200095D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71C4431D91875200095D7A /* AppDelegate.swift */; };
 		CB71C44B1D91875200095D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB71C44A1D91875200095D7A /* Assets.xcassets */; };
 		CB71C44E1D91875200095D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB71C44C1D91875200095D7A /* LaunchScreen.storyboard */; };
@@ -42,16 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB196D401D942E2B0068AB91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		CB196D481D9438420068AB91 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		CB196D4A1D94B8E00068AB91 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../Main/Home.storyboard; sourceTree = "<group>"; };
+		CB1633951D97F84D00DC5A42 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		CB16339A1D97F92B00DC5A42 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB16339D1D9800C700DC5A42 /* UIbarBtn-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIbarBtn-extension.swift"; sourceTree = "<group>"; };
+		CB16339F1D98124200DC5A42 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		CB196D401D942E2B0068AB91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		CB196D481D9438420068AB91 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		CB196D4A1D94B8E00068AB91 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../../Main/Home.storyboard; sourceTree = "<group>"; };
 		CB196D4C1D94B9250068AB91 /* live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = live.storyboard; path = ../Main/live.storyboard; sourceTree = "<group>"; };
 		CB196D4E1D94B9640068AB91 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = ../Main/Follow.storyboard; sourceTree = "<group>"; };
 		CB196D521D94B9BB0068AB91 /* ME.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ME.storyboard; path = ../Main/ME.storyboard; sourceTree = "<group>"; };
 		CB196D541D94BA110068AB91 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		CB196D561D94BA2C0068AB91 /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		CB196D581D94BA4B0068AB91 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
-		CB196D5A1D94BC5A0068AB91 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CB71C4401D91875200095D7A /* DouYuZhiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZhiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB71C4431D91875200095D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB71C44A1D91875200095D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +96,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB1633921D97F7F600DC5A42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB196D4A1D94B8E00068AB91 /* Home.storyboard */,
+				CB16339A1D97F92B00DC5A42 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB1633931D97F7F600DC5A42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB1633941D97F7F600DC5A42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB1633971D97F88800DC5A42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB196D401D942E2B0068AB91 /* Main.storyboard */,
+				CB196D481D9438420068AB91 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB1633981D97F88800DC5A42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB1633991D97F88800DC5A42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB16339F1D98124200DC5A42 /* PageTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB16339C1D98008000DC5A42 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB16339D1D9800C700DC5A42 /* UIbarBtn-extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		CB71C4371D91875200095D7A = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +217,7 @@
 		CB71C4721D9190D300095D7A /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				CB1633951D97F84D00DC5A42 /* Follow.storyboard */,
 				CB196D4E1D94B9640068AB91 /* Follow.storyboard */,
 				CB196D581D94BA4B0068AB91 /* FollowViewController.swift */,
 			);
@@ -165,8 +227,9 @@
 		CB71C4731D9190D300095D7A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				CB196D4A1D94B8E00068AB91 /* Home.storyboard */,
-				CB196D5A1D94BC5A0068AB91 /* HomeViewController.swift */,
+				CB1633931D97F7F600DC5A42 /* Model */,
+				CB1633941D97F7F600DC5A42 /* View */,
+				CB1633921D97F7F600DC5A42 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -183,8 +246,9 @@
 		CB71C4751D9190D300095D7A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				CB196D401D942E2B0068AB91 /* Main.storyboard */,
-				CB196D481D9438420068AB91 /* MainViewController.swift */,
+				CB1633981D97F88800DC5A42 /* Model */,
+				CB1633991D97F88800DC5A42 /* View */,
+				CB1633971D97F88800DC5A42 /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -201,6 +265,7 @@
 		CB71C4771D9190D300095D7A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				CB16339C1D98008000DC5A42 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -317,6 +382,7 @@
 				CB196D411D942E2B0068AB91 /* Main.storyboard in Resources */,
 				CB71C44E1D91875200095D7A /* LaunchScreen.storyboard in Resources */,
 				CB196D4D1D94B9250068AB91 /* live.storyboard in Resources */,
+				CB1633961D97F84D00DC5A42 /* Follow.storyboard in Resources */,
 				CB71C44B1D91875200095D7A /* Assets.xcassets in Resources */,
 				CB196D4B1D94B8E00068AB91 /* Home.storyboard in Resources */,
 				CB196D531D94B9BC0068AB91 /* ME.storyboard in Resources */,
@@ -345,12 +411,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1633A01D98124200DC5A42 /* PageTitleView.swift in Sources */,
 				CB196D551D94BA110068AB91 /* MeViewController.swift in Sources */,
 				CB71C4441D91875200095D7A /* AppDelegate.swift in Sources */,
 				CB196D591D94BA4B0068AB91 /* FollowViewController.swift in Sources */,
 				CB196D571D94BA2C0068AB91 /* LiveViewController.swift in Sources */,
 				CB196D491D9438420068AB91 /* MainViewController.swift in Sources */,
-				CB196D5B1D94BC5A0068AB91 /* HomeViewController.swift in Sources */,
+				CB16339E1D9800C700DC5A42 /* UIbarBtn-extension.swift in Sources */,
+				CB16339B1D97F92B00DC5A42 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
